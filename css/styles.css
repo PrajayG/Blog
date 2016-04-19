@@ -8,11 +8,29 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
+	background-color: #f9f9d9;
 }
 
 li, .name {
-	background: white;
+	list-style-type: none;
+	color: white;
+	letter-spacing: 2px;
 }
+
+
+.name  { 
+	padding-right: 45px;
+}
+
+li { 
+	margin-top: 15px;
+}
+
+li:hover { 
+	color: #bdbdbd;
+}
+
+
 
 /* ---- Layout Containers ---- */
 
@@ -23,16 +41,16 @@ li, .name {
 
 .main-header {
 	text-align: center;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background: #3acec2;
-	margin-bottom: 30px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 10px;
+	background-color: #3a707f;
 }
 
 .main-footer { 
 	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
+	padding: 1em 0;
+	background-color: #40a6bd;
 }
 
 
