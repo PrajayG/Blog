@@ -8,7 +8,7 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-	background-color: #f9f9d9;
+	background-color: #dbcfcf;
 }
 
 li, .name {
@@ -31,6 +31,18 @@ li:hover {
 }
 
 
+.card {
+	padding: 15px;
+}
+
+.profile { 
+	height: 50px;
+	width: 200px;
+}
+
+.side-column-header {
+	margin-left: 40px;
+}
 
 /* ---- Layout Containers ---- */
 
@@ -44,13 +56,14 @@ li:hover {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin-bottom: 10px;
-	background-color: #3a707f;
+	background-color: #332222;
 }
 
 .main-footer { 
 	text-align: center;
 	padding: 1em 0;
-	background-color: #40a6bd;
+	background-color: #332222;
+	margin-top: 40px;
 }
 
 
@@ -92,7 +105,6 @@ li:hover {
 	}
 
 	.col {
-		width: 50%;
 		display: inline-block;
 		
 		margin-right: -4px;
@@ -105,6 +117,16 @@ li:hover {
 	.img1 { 
 		float: left;
 		margin: 1em;
+	}
+
+	.primary { 
+		width: 75%;
+		vertical-align: top;
+	}
+
+	.secondary {
+		width: 25%;
+		vertical-align: top;
 	}
 
 }
